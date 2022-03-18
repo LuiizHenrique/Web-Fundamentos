@@ -4,9 +4,11 @@
             <div>
             <img align="right" width="200px"  height="200px" src="assest/img/tela1.1.png">
              </div>
+             ##
               <div>
             <img align="left"width="200px"  height="200px" src="assest/img/tela1.2.png" >
              </div>
+               ##
              <div>
             <img  align="center"width="200px"  height="200px" src="assest/img/tela1.3.png">
           </div>
