@@ -25,22 +25,30 @@
         <div class="formulario">
           <form>
             <div>
-              <label for="nome">Nome:</label>
-              <input type="text" id="nome" />
+              <label for="nome">Nome:</label><br>
+              <input type="text" id="nome" onkeyup="validaNome()"/>
+            </div>
+            <div id = "txtNome">
+              <br>
             </div>
             <div>
               <label for="email">E-mail:</label>
-              <input type="email" id="email" />
+              <input type="email" id="email" onkeyup="validaEmail()"/>
+            </div>
+            <div id = "txtemail">
+              
             </div>
             <div>
-              <label for="assunto">Assunto:</label>
+              <label for="assunto">Assunto:</label><br>
               <textarea
                 name="assunto"
                 id="assunto"
                 cols="60"
                 rows="5"
+                onkeyup="validaAssunto()"
               ></textarea>
             </div>
+             <div id='txtAssunto'></div>
             <button class="enviar">Enviar</button>
           </form>
         </div>
@@ -66,6 +74,7 @@
 </div>
   <p>Criado e Desenvolvido por Luiz Henrique</p>
 </footer>
+<script src="assest/Js/script.js"></script>
 </body>
 </html>
 
