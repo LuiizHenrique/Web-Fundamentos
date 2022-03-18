@@ -1,0 +1,179 @@
+/*Estilos da página index.html*/
+@import url('https://fonts.googleapis.com/css2?family=Exo:wght@900&family=Roboto:wght@100;300;400;500;700;900&display=swap');
+.container{
+  display: flex;
+  flex-flow: row;
+  justify-content: center;
+  align-items: center;
+}
+.center{
+  text-align:center;
+  }
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Copperplate, Papyrus, fantasy;
+    font-size: 1rem;
+    font-weight: 400;
+  }
+ 
+  body {
+    background: #04081f;
+    color: #f4f4f0;
+    width: 100vw;
+    overflow-x: hidden;
+    margin: 3rem;
+    margin-left: 3rem;
+  
+  }
+h1,h2 {
+    font-family: "Brush Script MT", cursive;
+    color: #f2eff5;
+    text-align: center;
+    margin-top: 0.5rem;
+}
+h1 {
+    font-size: clamp(2.5rem, 3vw, 3.5rem);
+  }
+  
+  h2 {
+    
+    font-size: max(2vw, 2rem);
+  }
+  a {
+    text-decoration: none;
+    color: inherit;
+    font-size: 1.85rem;
+    transition: color .2s ease-in;
+  }
+  a:hover{
+      color:rgba(255, 0, 191, 0.884);
+      text-decoration: underline;
+  }
+  .navbar{
+   display: flex;
+   list-style: none;
+   justify-content: center;
+   gap: 3rem;
+   padding-top: 2rem;
+  }
+.sobre{
+    width: 80vw;
+    margin:1.5 auto;
+    display:flex;
+    flex-direction: row-reverse;
+    gap:3rem;
+    align-items: center;
+}
+.imagem{
+
+    border-radius: 50%;
+    width:15vw;
+    border:3px solid rgba(255, 0, 191, 0.884);
+    padding: 5px;
+}
+.justify{
+text-align: justify;
+margin-right: 300px;
+margin-left: 25px;
+
+}
+    .tm-social{
+      width: 50px;
+      height: 50px;
+    }
+
+.texto{
+    display: flex;
+    flex-direction: center;
+    gap: 5rem;
+}
+.video{
+width: 40vw;
+aspect-ratio: 3/2;
+display: flex;
+margin: 1 rem auto;
+border-radius: 10 pix;
+}
+.mb-50{
+  margin-bottom: 50px;
+}
+
+hr {
+  border: 1px solid #c4c4c4;
+  width: 80%;
+  margin: 0 auto;
+  border-radius: 1rem
+}
+
+footer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 2rem 0;
+}
+/*Estilos da página contato.html*/
+.contato{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width:75vw;
+    margin:0 auto;
+    min-height: 78vh;
+}
+.formulario {
+    max-width: 30vw
+  }
+  input, textarea {
+    width: 100%;
+    padding: 5px 10px;
+    border-radius: 10px;
+    border: 0;
+    margin-bottom: 1rem;
+  }
+  .mapa {
+    width: 40vw;
+    display: flex;
+    flex-direction: center;
+  }
+  
+  .maps {
+    width: 100%;
+    aspect-ratio: 2/1;
+    border-radius: 1rem;
+  }
+  .enviar {
+    width: 75%;
+    margin: 1rem auto;
+    display: block;
+    padding: 1rem 0;
+    border-radius: 16px;
+    border: 3px solid #05010a;
+    background-color: transparent;
+    color: #f4f4f0;
+    font-size: 1.275rem;
+    transition: background-color .3s ease-out;
+  } 
+  .enviar:hover {
+    background-color:rgba(255, 0, 191, 0.884);
+  }
+  
+  @media screen and (max-width: 768px) {
+    .sobre {
+      width: 90vw;
+      flex-direction: column;
+    }
+  
+    .imagem {
+      width: 70vw;
+      border-radius: 2rem;
+    }
+  
+    .video {
+      width: 100vw;
+      
+    }
+    
+  }
+  

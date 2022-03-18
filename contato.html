@@ -5,10 +5,11 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Contato</title>
+    <link rel="stylesheet" href="assest/css/style.css">
 </head>
 <body>
-
-    <ul>
+<nav>
+    <ul class="navbar">
         <li>
             <a href="index.html" > Home</a>
         </li>
@@ -17,37 +18,54 @@
         </li>
 
     </ul>
+</nav>
+<main>
     <h1>Me Conte qual episodio gostaria de ver </h1>
-    <form >
-        <label for="nome">nome:</label>
-        <input type="text" id="nome">
-        <br>
-        <br>    
-        <label for="email">E-mail:</label>
-        <input type="text" id="assunto">
-        <br>
-        <br>
-        <label for="assunto">Assunto:</label>
-        <textarea name="assunto" id="assunto" cols="60" rows="5"></textarea>
-        <br>
-        <br>
-        <br>
-        <button>Enviar</button>
-    </form>
-
-    <h2>Endereço:</h2>
-
+    <section class="contato">
+        <div class="formulario">
+          <form>
+            <div>
+              <label for="nome">Nome:</label>
+              <input type="text" id="nome" />
+            </div>
+            <div>
+              <label for="email">E-mail:</label>
+              <input type="email" id="email" />
+            </div>
+            <div>
+              <label for="assunto">Assunto:</label>
+              <textarea
+                name="assunto"
+                id="assunto"
+                cols="60"
+                rows="5"
+              ></textarea>
+            </div>
+            <button class="enviar">Enviar</button>
+          </form>
+        </div>
+<div>
+        <div class="mapa">
+        </div clas="container">
     <p>300 North 3rd Street</p>
-    <p>Burbank, California</p>
-
-    <div>
-        <iframe width="250" height="320" frameborder="0" src="https://www.bing.com/maps/embed?h=320&w=250&cp=42.94033923363821~-97.73437499999653&lvl=3&typ=d&sty=r&src=SHELL&FORM=MBEDV8" scrolling="no">
-        </iframe>
-        <div style="white-space: nowrap; text-align: center; width: 250px; padding: 6px 0;">
+    <p>Burbank, California</p><div>
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3300.532241425511!2d-118.31181314948492!3d34.18387508047495!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80c295d9fba32dc1%3A0xeed0bb23a381030!2sCartoon%20Network%20Studios!5e0!3m2!1spt-BR!2sbr!4v1647552654310!5m2!1spt-BR!2sbr" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+        <div style="white-space: nowrap; text-align: center; width: 50px; padding: 6px 0;">
            <a id="largeMapLink" target="_blank" href="https://www.bing.com/maps?cp=42.94033923363821~-97.73437499999653&amp;sty=r&amp;lvl=3&amp;FORM=MBEDLD">Exibir Mapa Grande</a> &nbsp; | &nbsp;
-           <a id="dirMapLink" target="_blank" href="https://www.bing.com/maps/directions?cp=42.94033923363821~-97.73437499999653&amp;sty=r&amp;lvl=3&amp;rtp=~pos.42.94033923363821_-97.73437499999653____&amp;FORM=MBEDLD">Obter Trajeto</a>
-       </div>
+           <a id="dirMapLink" target="_blank" href="https://www.bing.com/maps/directions?cp=42.94033923363821~-97.73437499999653&amp;sty=r&amp;lvl=3&amp;rtp=~pos.42.94033923363821_-97.73437499999653____&amp;FORM=MBEDLD">
+               Obter Trajeto</a>
    </div>
+  </div>
+</section>
+</main>
+<hr />
+<footer>
+  <div class="container">
+    <img class="tm-social" src="assest/img/mordecai.jpg" alt="Regular show icon">
+    <img class="tm-social" src="assest/img/cn.jpg" alt="Network Icon">
+</div>
+  <p>Criado e Desenvolvido por Luiz Henrique</p>
+</footer>
 </body>
 </html>
 
