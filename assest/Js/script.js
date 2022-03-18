@@ -1,16 +1,3 @@
-/*Declarações de variaveis
-var nome // escopo global
- // escopo fechado(variavel que pode mudar ao longo do tempo)
-const nome //escopo fechado(variavel que não muda ao longo do tempo)
-/**/
-/*
-case Sensitive= reconhece letras maiusculas e minusculas
-por tag: getElementByTagName()
-por id:getElementById()
-por nome :getElementByClassName()
-por seletor:querySelector()
-*/
-
 let nome = window.document.getElementById("nome")
 let email = document.querySelector("#email")
 let assunto = document.querySelector("#assunto")
